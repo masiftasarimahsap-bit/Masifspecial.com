@@ -1,0 +1,61 @@
+{
+  "nav_home": "Ana Sayfa",
+  "nav_products": "Ürünler",
+  "nav_about": "Hakkımızda",
+  "nav_stores": "Mağazalar",
+  "nav_contact": "İletişim",
+
+  "hero_badge": "masif special",
+  "hero_title": "El Yapımı Premium<br/>Masif Ahşap <em>Ürünler</em>",
+  "hero_desc": "Her parça, doğanın eşsiz dokusunu premium tasarımla buluşturur. Masif ahşabın sıcaklığını, modern çizgilerle yaşam alanlarınıza taşıyoruz.",
+  "hero_cta": "Koleksiyonu Keşfet",
+  "hero_scroll": "Keşfet",
+
+  "products_label": "Koleksiyonumuz",
+  "products_title": "El Yapımı Masif Ahşap Ürün <em>Koleksiyonumuz</em>",
+  "products_desc": "Doğal kayın ağacından, tek tek el işçiliğiyle üretilen premium ürünlerimizi keşfedin.",
+  "view_collection": "Koleksiyonu Gör →",
+
+  "cat_desk_clock": "Masaüstü Ahşap Saatler",
+  "cat_desk_clock_desc": "Doğal kayın ağacından, kemerli tasarım. 3 kadran modeli, sessiz mekanizma, kişiselleştirilebilir arka yüz.",
+  "cat_wall_clock": "Duvar Saatleri",
+  "cat_wall_clock_desc": "30cm ve 40cm boyutlarda, doğal kayın ağacından duvar saatleri. İsim, tarih veya logo kazıma seçeneği.",
+  "cat_candleholders": "Ahşap Şamdanlar",
+  "cat_candleholders_desc": "Torna tekniğiyle üretilen 5 farklı model. Tekli veya 3'lü set seçenekleri.",
+  "cat_vases": "Ahşap Dekoratif Vazolar",
+  "cat_vases_desc": "Kayın ve ceviz ağacından, damla ve şişe formlarında dekoratif vazolar.",
+  "cat_legs": "Mobilya Ayakları",
+  "cat_legs_desc": "Tornalanmış masif kayın ağacı mobilya ayakları. Klasik tornalı ve modern konik modeller.",
+  "cat_shelf": "Duvar Rafları",
+  "cat_shelf_desc": "Oval kemerli doğal ahşap duvar rafları. Açık ve koyu ton seçenekleri.",
+
+  "about_label": "Hikayemiz",
+  "about_title": "Masif Ahşap El İşçiliği <em>Hikayemiz</em>",
+  "about_p1": "Kayseri'den, doğanın en saf halini elinize ulaştırıyoruz. Her ürün, usta ellerden geçerek sizin için özel olarak şekilleniyor.",
+  "about_p2": "Kayın ağacının doğal dokusunu bozmadan, modern tasarım anlayışıyla buluşturuyoruz. Kimyasal işlem uygulamadan, ahşabın kendi hikâyesini anlatmasına izin veriyoruz.",
+
+  "stores_label": "Mağazalar",
+  "stores_title": "Online Ahşap Ürün <em>Mağazalarımız</em>",
+  "stores_visit": "Mağazayı Ziyaret Et",
+
+  "contact_label": "İletişim",
+  "contact_title": "Bizimle İletişime <em>Geçin</em>",
+  "contact_desc": "Özel sipariş, toplu alım veya herhangi bir soru için bizimle iletişime geçebilirsiniz.",
+  "contact_name": "Adınız",
+  "contact_email": "E-posta Adresiniz",
+  "contact_message": "Mesajınız",
+  "contact_submit": "Mesaj Gönder",
+  "contact_phone_label": "Telefon",
+  "contact_email_label": "E-posta",
+  "contact_location_label": "Konum",
+  "contact_whatsapp": "WhatsApp'tan Yazın",
+
+  "footer_products": "Ürünler",
+  "footer_links": "Bağlantılar",
+  "footer_stores": "Mağazalar",
+  "footer_copyright": "© 2025 masif. Tüm hakları saklıdır.",
+  "footer_privacy": "Gizlilik Politikası",
+  "footer_terms": "Kullanım Koşulları",
+
+  "whatsapp_tooltip": "WhatsApp ile yazın"
+}

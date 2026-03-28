@@ -1,0 +1,61 @@
+{
+  "nav_home": "Home",
+  "nav_products": "Products",
+  "nav_about": "About Us",
+  "nav_stores": "Stores",
+  "nav_contact": "Contact",
+
+  "hero_badge": "masif special",
+  "hero_title": "Handcrafted Premium<br/>Solid Wood <em>Products</em>",
+  "hero_desc": "Each piece brings nature's unique texture together with premium design. We bring the warmth of solid wood to your living spaces with modern lines.",
+  "hero_cta": "Explore Collection",
+  "hero_scroll": "Discover",
+
+  "products_label": "Our Collection",
+  "products_title": "Handcrafted Solid Wood Product <em>Collection</em>",
+  "products_desc": "Discover our premium products, each handcrafted one by one from natural beech wood.",
+  "view_collection": "View Collection →",
+
+  "cat_desk_clock": "Wooden Desk Clocks",
+  "cat_desk_clock_desc": "Natural beech wood, arched design. 3 dial models, silent mechanism, customizable back.",
+  "cat_wall_clock": "Wall Clocks",
+  "cat_wall_clock_desc": "30cm and 40cm sizes, natural beech wood wall clocks. Name, date, or logo engraving options.",
+  "cat_candleholders": "Wooden Candleholders",
+  "cat_candleholders_desc": "5 different models produced with lathe technique. Single or 3-piece set options.",
+  "cat_vases": "Decorative Wooden Vases",
+  "cat_vases_desc": "Beech and walnut wood, decorative vases in drop and bottle forms.",
+  "cat_legs": "Furniture Legs",
+  "cat_legs_desc": "Turned solid beech wood furniture legs. Classic turned and modern conical models.",
+  "cat_shelf": "Wall Shelves",
+  "cat_shelf_desc": "Oval arched natural wood wall shelves. Light and dark tone options.",
+
+  "about_label": "Our Story",
+  "about_title": "Solid Wood Craftsmanship <em>Story</em>",
+  "about_p1": "From Kayseri, we deliver nature's purest form to your hands. Each product is specially shaped for you by master craftsmen.",
+  "about_p2": "We combine the natural texture of beech wood with modern design philosophy without distorting it. Without chemical processing, we let the wood tell its own story.",
+
+  "stores_label": "Stores",
+  "stores_title": "Our Online Wood Product <em>Stores</em>",
+  "stores_visit": "Visit Store",
+
+  "contact_label": "Contact",
+  "contact_title": "Get in <em>Touch</em>",
+  "contact_desc": "Contact us for custom orders, bulk purchases, or any questions.",
+  "contact_name": "Your Name",
+  "contact_email": "Your Email",
+  "contact_message": "Your Message",
+  "contact_submit": "Send Message",
+  "contact_phone_label": "Phone",
+  "contact_email_label": "Email",
+  "contact_location_label": "Location",
+  "contact_whatsapp": "Message on WhatsApp",
+
+  "footer_products": "Products",
+  "footer_links": "Links",
+  "footer_stores": "Stores",
+  "footer_copyright": "© 2025 masif. All rights reserved.",
+  "footer_privacy": "Privacy Policy",
+  "footer_terms": "Terms of Use",
+
+  "whatsapp_tooltip": "Write on WhatsApp"
+}

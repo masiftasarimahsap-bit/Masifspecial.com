@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sayfa Bulunamadı — masif.</title>
+  <meta name="description" content="Aradığınız sayfa bulunamadı. masif. premium ahşap ürünler koleksiyonumuzu keşfedin."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .error-page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .error-content {
+      max-width: 560px;
+    }
+    .error-code {
+      font-family: var(--font-display, 'Fraunces', serif);
+      font-size: clamp(5rem, 15vw, 10rem);
+      font-weight: 300;
+      color: var(--accent, #c9a26c);
+      line-height: 1;
+      margin-bottom: 1rem;
+      opacity: 0.8;
+    }
+    .error-title {
+      font-family: var(--font-display, 'Fraunces', serif);
+      font-size: clamp(1.5rem, 4vw, 2.2rem);
+      font-weight: 300;
+      color: var(--text-primary, #f5f0eb);
+      margin-bottom: 1rem;
+    }
+    .error-desc {
+      color: var(--text-secondary, rgba(245,240,235,0.6));
+      font-size: 1rem;
+      line-height: 1.8;
+      margin-bottom: 2.5rem;
+    }
+    .error-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      margin-bottom: 3rem;
+    }
+    .error-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      border: 1px solid var(--border, rgba(201,162,108,0.15));
+      border-radius: 999px;
+      color: var(--text-primary, #f5f0eb);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: all 0.3s ease;
+    }
+    .error-links a:hover {
+      border-color: var(--accent, #c9a26c);
+      color: var(--accent, #c9a26c);
+      transform: translateY(-2px);
+    }
+    .error-links a.primary {
+      background: var(--accent, #c9a26c);
+      color: var(--bg, #0c0b09);
+      border-color: var(--accent, #c9a26c);
+      font-weight: 500;
+    }
+    .error-links a.primary:hover {
+      opacity: 0.9;
+      color: var(--bg, #0c0b09);
+    }
+    .error-categories {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+    }
+    .error-categories a {
+      padding: 0.5rem 1rem;
+      font-size: 0.8rem;
+      color: var(--text-secondary, rgba(245,240,235,0.6));
+      text-decoration: none;
+      border: 1px solid var(--border, rgba(201,162,108,0.1));
+      border-radius: 999px;
+      transition: all 0.3s ease;
+    }
+    .error-categories a:hover {
+      color: var(--accent, #c9a26c);
+      border-color: var(--accent, #c9a26c);
+    }
+    .error-divider {
+      width: 40px;
+      height: 1px;
+      background: var(--accent, #c9a26c);
+      margin: 2rem auto;
+      opacity: 0.4;
+    }
+    .error-categories-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--accent, #c9a26c);
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">masif<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="index.html#urunler">Ürünler</a></li>
+        <li><a href="index.html#hakkimizda">Hakkımızda</a></li>
+        <li><a href="index.html#magazalar">Mağazalar</a></li>
+        <li><a href="index.html#iletisim">İletişim</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menü">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="error-page">
+    <div class="error-content">
+      <div class="error-code">404</div>
+      <h1 class="error-title">Sayfa Bulunamadı</h1>
+      <p class="error-desc">
+        Aradığınız sayfa taşınmış, silinmiş veya hiç var olmamış olabilir. 
+        Aşağıdaki bağlantılardan devam edebilirsiniz.
+      </p>
+      
+      <div class="error-links">
+        <a href="index.html" class="primary">
+          ← Ana Sayfaya Dön
+        </a>
+        <a href="https://wa.me/905067786885" target="_blank" rel="noopener noreferrer">
+          WhatsApp'tan Yazın
+        </a>
+      </div>
+
+      <div class="error-divider"></div>
+
+      <div class="error-categories-label">Popüler Kategoriler</div>
+      <div class="error-categories">
+        <a href="ahsap-masa-saati.html">Masa Saatleri</a>
+        <a href="ahsap-duvar-saati.html">Duvar Saatleri</a>
+        <a href="ahsap-samdanlar.html">Şamdanlar</a>
+        <a href="ahsap-vazolar.html">Vazolar</a>
+        <a href="ahsap-ayaklar.html">Mobilya Ayakları</a>
+        <a href="ahsap-duvar-rafi.html">Duvar Rafları</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+    <script src="chatbot.js"></script>
+  </body>
+</html>

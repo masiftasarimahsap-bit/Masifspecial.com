@@ -1,0 +1,14 @@
+# Next.js source - only built output (masif-sistem/) is tracked
+Otomasyon /
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Claude / local config
+CLAUDE.md
+**/CLAUDE.md
+.claude/
+
+# Misc
+*.log
