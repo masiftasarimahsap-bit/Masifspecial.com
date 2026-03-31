@@ -1,0 +1,634 @@
+[
+  {
+    "num": 1,
+    "name": "Akasya",
+    "slug": "masa-saati-akasya",
+    "badge": "🌿 Doğal & Sade",
+    "desc": "Açık ahşap tonu ve yalın çizgileriyle masanıza huzur getirir. Her tahta lifinde ...",
+    "cover": "images/masa-saati/kapak-akasya.jpg"
+  },
+  {
+    "num": 2,
+    "name": "Servi",
+    "slug": "masa-saati-servi",
+    "badge": "🌲 Uzun & İnce",
+    "desc": "İnce ve zarif formuyla masanızda dikey bir vurgu yaratır. Servi ağacının özgün d...",
+    "cover": "images/masa-saati/kapak-servi.jpg"
+  },
+  {
+    "num": 3,
+    "name": "Meşe",
+    "slug": "masa-saati-mese",
+    "badge": "🏛️ Güçlü & Klasik",
+    "desc": "Meşe ruhunun sağlamlığı ve asaleti masaüstü saate yansıyor. Köklü bir estetik, h...",
+    "cover": "images/masa-saati/kapak-mese.jpg"
+  },
+  {
+    "num": 4,
+    "name": "Huş",
+    "slug": "masa-saati-hus",
+    "badge": "🍂 Hafif & Şiirsel",
+    "desc": "Huş ağacının beyazımsı tonu ve zarif damarlarıyla masanızda şiirsel bir iz bırak...",
+    "cover": "images/masa-saati/kapak-hus.jpg"
+  },
+  {
+    "num": 5,
+    "name": "Çınar",
+    "slug": "masa-saati-cinar",
+    "badge": "🌳 Anıtsal & Güçlü",
+    "desc": "Şehrin çınarları gibi zamana meydan okur. Köklü ve güçlü bir tasarım, masanızda ...",
+    "cover": "images/masa-saati/kapak-cinar.jpg"
+  },
+  {
+    "num": 6,
+    "name": "Ocak",
+    "slug": "masa-saati-ocak",
+    "badge": "🔥 Sıcak & Samimi",
+    "desc": "Bir şömine başındaki sıcaklığı masanıza taşır. Ocak Serisi, her bakışta içinizi ...",
+    "cover": "images/masa-saati/kapak-ocak.jpg"
+  },
+  {
+    "num": 7,
+    "name": "Nehir",
+    "slug": "masa-saati-nehir",
+    "badge": "🌊 Akıcı & Sakin",
+    "desc": "Nehir gibi sonsuz akar, dinginlik taşır. Ahşabın damar çizgileri su akışını andı...",
+    "cover": "images/masa-saati/kapak-nehir.jpg"
+  },
+  {
+    "num": 8,
+    "name": "Bozkır",
+    "slug": "masa-saati-bozkirr",
+    "badge": "🏜️ Serbest & Uçsuz",
+    "desc": "Uçsuz bucaksız bozkırın özgürlüğünü masanıza taşır. Sınırsız ufukların sessizliğ...",
+    "cover": "images/masa-saati/kapak-bozkirr.jpg"
+  },
+  {
+    "num": 9,
+    "name": "Toprak",
+    "slug": "masa-saati-toprak",
+    "badge": "🌍 Kökler & Özgünlük",
+    "desc": "Toprağın sıcak kahverengi tonlarında, köklerine bağlı bir tasarım. Her ahşap par...",
+    "cover": "images/masa-saati/kapak-toprak.jpg"
+  },
+  {
+    "num": 10,
+    "name": "Duman",
+    "slug": "masa-saati-duman",
+    "badge": "🌫️ Gizemli & Derin",
+    "desc": "Duman gibi gizemli, ahşabın gri tonlarında derinlik hissiyatı. Modern mekânlarda...",
+    "cover": "images/masa-saati/kapak-duman.jpg"
+  },
+  {
+    "num": 11,
+    "name": "Petek",
+    "slug": "masa-saati-petek",
+    "badge": "🍯 Altın & Tatlı",
+    "desc": "Bal peteğinin geometrik güzelliğinden ilham alan bu seri, altın sarısı ahşap ton...",
+    "cover": "images/masa-saati/kapak-petek.jpg"
+  },
+  {
+    "num": 12,
+    "name": "Göl",
+    "slug": "masa-saati-gol",
+    "badge": "💧 Durgun & Derin",
+    "desc": "Derin bir gölün sakinliği ve derinliği. Koyu ton ahşabın suyun derinliğini andır...",
+    "cover": "images/masa-saati/kapak-gol.jpg"
+  },
+  {
+    "num": 13,
+    "name": "Şafak",
+    "slug": "masa-saati-safak",
+    "badge": "🌅 Yeni Başlangıç",
+    "desc": "Her sabahı hatırlatan bu seri, günün ilk ışığının ahşap üzerindeki yansımasını s...",
+    "cover": "images/masa-saati/kapak-safak.jpg"
+  },
+  {
+    "num": 14,
+    "name": "Bora",
+    "slug": "masa-saati-bora",
+    "badge": "💨 Enerjik & Dinamik",
+    "desc": "Bora fırtınasının enerjisi ahşabın damarlarında gizli. Dinamik çizgilerle masanı...",
+    "cover": "images/masa-saati/kapak-bora.jpg"
+  },
+  {
+    "num": 15,
+    "name": "Lale",
+    "slug": "masa-saati-lale",
+    "badge": "🌷 Zarif & Narin",
+    "desc": "Lale'nin zarif duruşu ve kırmızı-kahverengi tonların uyumu. Narin ama güçlü bir ...",
+    "cover": "images/masa-saati/kapak-lale.jpg"
+  },
+  {
+    "num": 16,
+    "name": "Mercan",
+    "slug": "masa-saati-mercan",
+    "badge": "🪸 Deniz & Derinlik",
+    "desc": "Derinlik, renk ve organik form. Mercan rengi ahşap tonları ve özgün doku denizin...",
+    "cover": "images/masa-saati/kapak-mercan.jpg"
+  },
+  {
+    "num": 17,
+    "name": "Çimen",
+    "slug": "masa-saati-cimen",
+    "badge": "🌱 Taze & Canlı",
+    "desc": "Çimenin tazeliğini ve yeşilimsi-sarı ahşap tonunu masanıza taşır. Canlı ve ferah...",
+    "cover": "images/masa-saati/kapak-cimen.jpg"
+  },
+  {
+    "num": 18,
+    "name": "Yıldız",
+    "slug": "masa-saati-yildiz",
+    "badge": "⭐ Işıltılı & Özel",
+    "desc": "Karanlıkta bile ışıldayan bir yıldız gibi. Açık ahşap tonu ışıkla dans eder, mek...",
+    "cover": "images/masa-saati/kapak-yildiz.jpg"
+  },
+  {
+    "num": 19,
+    "name": "Dağ",
+    "slug": "masa-saati-dag",
+    "badge": "⛰️ Sağlam & Heybetli",
+    "desc": "Dağların azametini, sağlamlığını ve doğasını küçük bir forma sığdırdık. Masanızd...",
+    "cover": "images/masa-saati/kapak-dag.jpg"
+  },
+  {
+    "num": 20,
+    "name": "Orman",
+    "slug": "masa-saati-orman",
+    "badge": "🌲 Derinlik & Zenginlik",
+    "desc": "Ormanın koyu ve zengin ahşap renk skalası. Derin tonlar ve yoğun damarlar ormanı...",
+    "cover": "images/masa-saati/kapak-orman.jpg"
+  },
+  {
+    "num": 21,
+    "name": "Taş",
+    "slug": "masa-saati-tas",
+    "badge": "🪨 Kaba & Özgün",
+    "desc": "Taşın ham güzelliğinden esinlenilmiş mat ve doğal dokulu yüzeyiyle benzersiz bir...",
+    "cover": "images/masa-saati/kapak-tas.jpg"
+  },
+  {
+    "num": 22,
+    "name": "Rüzgar",
+    "slug": "masa-saati-ruzgar",
+    "badge": "💨 Özgür & Hafif",
+    "desc": "Rüzgarın özgürlüğü ve hafifliği ahşabın narin çizgilerinde. Masanızda nefes alan...",
+    "cover": "images/masa-saati/kapak-ruzgar.jpg"
+  },
+  {
+    "num": 23,
+    "name": "Ay",
+    "slug": "masa-saati-ay",
+    "badge": "🌙 Gizemli & Romantik",
+    "desc": "Ay ışığının soluk parlaklığı ahşabın açık tonlarında. Gece masanıza romantik bir...",
+    "cover": "images/masa-saati/kapak-ay.jpg"
+  },
+  {
+    "num": 24,
+    "name": "Safran",
+    "slug": "masa-saati-safran",
+    "badge": "🌼 Altın & Değerli",
+    "desc": "Safranın değerli sarı-altın tonları ahşabın ışıl ışıl yüzeyinde. Her bakışta bir...",
+    "cover": "images/masa-saati/kapak-safran.jpg"
+  },
+  {
+    "num": 25,
+    "name": "Bakır",
+    "slug": "masa-saati-bakir",
+    "badge": "🟤 Sıcak & Metal",
+    "desc": "Bakırın sıcak kırmızı-kahverengi tonu ahşabın damarlarıyla dans eder. Endüstriye...",
+    "cover": "images/masa-saati/kapak-bakir.jpg"
+  },
+  {
+    "num": 26,
+    "name": "Kestane",
+    "slug": "masa-saati-kestane",
+    "badge": "🌰 Sonbahar & Sıcaklık",
+    "desc": "Kestane kahvesinin zengin tonları sonbaharın sıcaklığını masanıza taşır. Nostalj...",
+    "cover": "images/masa-saati/kapak-kestane.jpg"
+  },
+  {
+    "num": 27,
+    "name": "Çakıl",
+    "slug": "masa-saati-cakil",
+    "badge": "🪨 Yuvarlak & Sakin",
+    "desc": "Nehir taşlarının yuvarlak formundan esinlenilmiş. Pürüzsüz yüzey ve sakin görünt...",
+    "cover": "images/masa-saati/kapak-cakil.jpg"
+  },
+  {
+    "num": 28,
+    "name": "Kar",
+    "slug": "masa-saati-kar",
+    "badge": "❄️ Beyaz & Temiz",
+    "desc": "Karın beyazlığından ilham alan açık ve temiz ahşap tonu. Bir sonbahar karının ma...",
+    "cover": "images/masa-saati/kapak-kar.jpg"
+  },
+  {
+    "num": 29,
+    "name": "Çay",
+    "slug": "masa-saati-cay",
+    "badge": "🍵 Sıcak & Davetkar",
+    "desc": "Sıcak çay fincanı gibi davetkar. Koyu amber rengi ahşap tonu her günü daha anlam...",
+    "cover": "images/masa-saati/kapak-cay.jpg"
+  },
+  {
+    "num": 30,
+    "name": "Demir",
+    "slug": "masa-saati-demir",
+    "badge": "⚙️ Güçlü & Endüstriyel",
+    "desc": "Demirin gücü ahşabın sıcaklığıyla buluşuyor. Ham, endüstriyel ve dayanıklı bir t...",
+    "cover": "images/masa-saati/kapak-demir.jpg"
+  },
+  {
+    "num": 31,
+    "name": "Sedef",
+    "slug": "masa-saati-sedef",
+    "badge": "🐚 Naif & İnce",
+    "desc": "Sedefin inci beyazı parlaklığından esinlenilmiş. Işıkla dans eden açık ahşap ton...",
+    "cover": "images/masa-saati/kapak-sedef.jpg"
+  },
+  {
+    "num": 32,
+    "name": "Vişne",
+    "slug": "masa-saati-visne",
+    "badge": "🍒 Canlı & Asil",
+    "desc": "Vişnenin koyu kırmızı tonu ahşabın sıcaklığıyla birleşiyor. Asil bir kırmızının ...",
+    "cover": "images/masa-saati/kapak-visne.jpg"
+  },
+  {
+    "num": 33,
+    "name": "Zeytin",
+    "slug": "masa-saati-zeytin",
+    "badge": "🫒 Akdeniz & Toprak",
+    "desc": "Zeytin ağacının yeşilimsi-gri tonlarından ilham alan bu seri Akdeniz'i masanıza ...",
+    "cover": "images/masa-saati/kapak-zeytin.jpg"
+  },
+  {
+    "num": 34,
+    "name": "Limon",
+    "slug": "masa-saati-limon",
+    "badge": "🍋 Ferah & Enerjik",
+    "desc": "Limon sarısının enerjisi açık ahşap tonuna işlenmiş. Sabahları masanıza ferahlat...",
+    "cover": "images/masa-saati/kapak-limon.jpg"
+  },
+  {
+    "num": 35,
+    "name": "Gümüş",
+    "slug": "masa-saati-gumus",
+    "badge": "🥈 Parlak & Modern",
+    "desc": "Gümüşün soğuk parlaklığı açık ahşabın sıcaklığıyla dengeli bir uyum yaratır. Mod...",
+    "cover": "images/masa-saati/kapak-gumus.jpg"
+  },
+  {
+    "num": 36,
+    "name": "Tunç",
+    "slug": "masa-saati-tunc",
+    "badge": "🔶 Antik & Kültürel",
+    "desc": "Antik tunç objelerden ilham alan koyu amber ve kırmızı kahverengi tonu. Tarihin ...",
+    "cover": "images/masa-saati/kapak-tunc.jpg"
+  },
+  {
+    "num": 37,
+    "name": "İnci",
+    "slug": "masa-saati-inci",
+    "badge": "💎 Zarif & Değerli",
+    "desc": "İncinin saf ve ışıltılı güzelliğinden esinlenilmiş. Beyazımsı ve parlak ahşap yü...",
+    "cover": "images/masa-saati/kapak-inci.jpg"
+  },
+  {
+    "num": 38,
+    "name": "Çıra",
+    "slug": "masa-saati-cira",
+    "badge": "🔆 Işıklı & Canlı",
+    "desc": "Çıra ateşinin sarı-turuncu aydınlığı ahşabın damarlarında yaşıyor. Yaratıcı mekâ...",
+    "cover": "images/masa-saati/kapak-cira.jpg"
+  },
+  {
+    "num": 39,
+    "name": "Kuzgun",
+    "slug": "masa-saati-kuzgun",
+    "badge": "🦅 Asil & Serbest",
+    "desc": "Kuzgunun gizemli siyah-koyu gri tonu ahşabın derinliğine yansımış. Asil ve özgür...",
+    "cover": "images/masa-saati/kapak-kuzgun.jpg"
+  },
+  {
+    "num": 40,
+    "name": "Güneş",
+    "slug": "masa-saati-gunes",
+    "badge": "☀️ Parlak & Pozitif",
+    "desc": "Güneş sarısının enerjisi ve sıcaklığı açık ahşap yüzeye işlenmiş. Her bakışta po...",
+    "cover": "images/masa-saati/kapak-gunes.jpg"
+  },
+  {
+    "num": 41,
+    "name": "Karanfil",
+    "slug": "masa-saati-karanfil",
+    "badge": "🌸 Baharatlı & Özel",
+    "desc": "Karanfilin yoğun ve baharatlı kırmızı tonu ahşabın damarlarında gizli. Özel bir ...",
+    "cover": "images/masa-saati/kapak-karanfil.jpg"
+  },
+  {
+    "num": 42,
+    "name": "Nane",
+    "slug": "masa-saati-nane",
+    "badge": "🌿 Ferah & Sağlıklı",
+    "desc": "Nane yeşilinin ferahlığı açık ahşabın doğallığıyla buluşuyor. Masanıza temiz hav...",
+    "cover": "images/masa-saati/kapak-nane.jpg"
+  },
+  {
+    "num": 43,
+    "name": "Manolya",
+    "slug": "masa-saati-manolya",
+    "badge": "🌺 Asil & Beyaz",
+    "desc": "Manolyanın beyaz ve narin güzelliği açık ahşapta. Saf bir estetik, saflığın simg...",
+    "cover": "images/masa-saati/kapak-manolya.jpg"
+  },
+  {
+    "num": 44,
+    "name": "Zümrüt",
+    "slug": "masa-saati-zumrut",
+    "badge": "💚 Derin & Değerli",
+    "desc": "Zümrüt yeşilinin derin ve koyu tonu ahşabın doğal liflerinde. Değerli bir taşın ...",
+    "cover": "images/masa-saati/kapak-zumrut.jpg"
+  },
+  {
+    "num": 45,
+    "name": "Yakut",
+    "slug": "masa-saati-yakut",
+    "badge": "❤️ Tutkulu & Kırmızı",
+    "desc": "Yakut kırmızısının tutkulu tonu ahşabın derinliğinde parlıyor. Tutku ve sevgi ma...",
+    "cover": "images/masa-saati/kapak-yakut.jpg"
+  },
+  {
+    "num": 46,
+    "name": "Firuze",
+    "slug": "masa-saati-firuze",
+    "badge": "🩵 Turquoise & Egzotik",
+    "desc": "Firuze taşının benzersiz turquoise-yeşil tonu ahşabın sıcaklığıyla egzotik bir b...",
+    "cover": "images/masa-saati/kapak-firuze.jpg"
+  },
+  {
+    "num": 47,
+    "name": "Kumsal",
+    "slug": "masa-saati-kumsal",
+    "badge": "🏖️ Sahil & Özgür",
+    "desc": "Sahilin kum rengi ahşapta. Deniz esintisini ve özgürlük hissini masanıza taşır....",
+    "cover": "images/masa-saati/kapak-kumsal.jpg"
+  },
+  {
+    "num": 48,
+    "name": "Şimşek",
+    "slug": "masa-saati-simsek",
+    "badge": "⚡ Hızlı & Enerjik",
+    "desc": "Şimşeğin ani parlaklığı ve enerjisi ahşabın damarlarına yansımış. Dinamik ve çar...",
+    "cover": "images/masa-saati/kapak-simsek.jpg"
+  },
+  {
+    "num": 49,
+    "name": "Papatya",
+    "slug": "masa-saati-papatya",
+    "badge": "🌼 Saf & Neşeli",
+    "desc": "Papatyanın saf beyaz ve sarı tonları açık ahşabın doğallığıyla buluşuyor. Saf ve...",
+    "cover": "images/masa-saati/kapak-papatya.jpg"
+  },
+  {
+    "num": 50,
+    "name": "Amber",
+    "slug": "masa-saati-amber-m",
+    "badge": "🍯 Bal & Sıcaklık",
+    "desc": "Bal renginin sıcaklığı ve iç aydınlığı. Amber Serisi, masaüstünde yaşayan bir gü...",
+    "cover": "images/masa-saati/kapak-amber-m.jpg"
+  },
+  {
+    "num": 51,
+    "name": "Fırtına",
+    "slug": "masa-saati-firtina",
+    "badge": "🌩️ Güçlü & Çarpıcı",
+    "desc": "Fırtınanın gücü ve doğanın galeyanı ahşabın koyu damarlarında. Güçlü bir karakte...",
+    "cover": "images/masa-saati/kapak-firtina.jpg"
+  },
+  {
+    "num": 52,
+    "name": "Selvi",
+    "slug": "masa-saati-selvi",
+    "badge": "🌿 Dikeylik & Asalet",
+    "desc": "Servinin dikey ve asil duruşu bu masaüstü saatte yeniden doğuyor. Zarif ve bağım...",
+    "cover": "images/masa-saati/kapak-selvi.jpg"
+  },
+  {
+    "num": 53,
+    "name": "Çiçek",
+    "slug": "masa-saati-cicek",
+    "badge": "🌸 Renk & Sevinç",
+    "desc": "Her mevsimde açan çiçeğin canlılığı ahşabın sıcaklığında. Masanıza mevsimsel bir...",
+    "cover": "images/masa-saati/kapak-cicek.jpg"
+  },
+  {
+    "num": 54,
+    "name": "Bal",
+    "slug": "masa-saati-bal",
+    "badge": "🍯 Tatlı & Nostaljik",
+    "desc": "Balın tatlılığı ve altın rengi ahşabın sıcak tonlarında. Her bakışta tatlı bir h...",
+    "cover": "images/masa-saati/kapak-bal.jpg"
+  },
+  {
+    "num": 55,
+    "name": "Dere",
+    "slug": "masa-saati-dere",
+    "badge": "💧 Akan & Doğal",
+    "desc": "Dağ deresinin berrak soğukluğu ve özgürlüğü masanıza taşınıyor. Doğal ve temiz b...",
+    "cover": "images/masa-saati/kapak-dere.jpg"
+  },
+  {
+    "num": 56,
+    "name": "Sis",
+    "slug": "masa-saati-sis",
+    "badge": "🌫️ Belirsiz & Gizemli",
+    "desc": "Sis gibi gizemli ve belirsiz. Gri-koyu tonlu ahşap yüzey ile masanıza derin bir ...",
+    "cover": "images/masa-saati/kapak-sis.jpg"
+  },
+  {
+    "num": 57,
+    "name": "Yağmur",
+    "slug": "masa-saati-yagmur",
+    "badge": "🌧️ Ferahlatıcı & Romantik",
+    "desc": "Yağmurun bereketli damlalarını andıran ahşap damarlarıyla masanıza romantik bir ...",
+    "cover": "images/masa-saati/kapak-yagmur.jpg"
+  },
+  {
+    "num": 58,
+    "name": "Ardıç",
+    "slug": "masa-saati-ardic",
+    "badge": "🌲 Aromatik & Sağlam",
+    "desc": "Ardıç ağacının koyu ve aromatik tonu masaüstünde egzotik bir his yaratır. Doğal ...",
+    "cover": "images/masa-saati/kapak-ardic.jpg"
+  },
+  {
+    "num": 59,
+    "name": "Liköz",
+    "slug": "masa-saati-likoz",
+    "badge": "✨ Parlak & Ekzotik",
+    "desc": "Egzotik bir ağacın nadir renklerinden ilham alan yoğun ve derin ahşap tonu ile m...",
+    "cover": "images/masa-saati/kapak-likoz.jpg"
+  },
+  {
+    "num": 60,
+    "name": "Nilüfer",
+    "slug": "masa-saati-nilufer",
+    "badge": "🌸 Su & Zarafetle",
+    "desc": "Nilüferin su yüzeyindeki zarif duruşundan ilham alan bu seri, masaüstünde sıvı b...",
+    "cover": "images/masa-saati/kapak-nilufer.jpg"
+  },
+  {
+    "num": 61,
+    "name": "Menekşe",
+    "slug": "masa-saati-menekse",
+    "badge": "💜 Mor & Naif",
+    "desc": "Menekşenin zarif moru ahşabın sıcaklığıyla buluşuyor. Naif ve derin, mor-kahvere...",
+    "cover": "images/masa-saati/kapak-menekse.jpg"
+  },
+  {
+    "num": 62,
+    "name": "Ardahan",
+    "slug": "masa-saati-ardahan",
+    "badge": "🏔️ Sert & Özgün",
+    "desc": "Doğu'nun sert doğası ve soğuk güzelliğinden ilham alan koyu ve güçlü bir ahşap t...",
+    "cover": "images/masa-saati/kapak-ardahan.jpg"
+  },
+  {
+    "num": 63,
+    "name": "Orçid",
+    "slug": "masa-saati-orcid",
+    "badge": "🌺 Nadir & Muhteşem",
+    "desc": "Orkidenin nadir güzelliği ve egzotik tonu ahşabın sıcaklığında yeniden doğuyor. ...",
+    "cover": "images/masa-saati/kapak-orcid.jpg"
+  },
+  {
+    "num": 64,
+    "name": "Zakkum",
+    "slug": "masa-saati-zakkum",
+    "badge": "🌹 Güçlü & Çekici",
+    "desc": "Zakkumun güçlü ve çekici karakteri ahşabın derin tonlarında gizli. Hem tehlikeli...",
+    "cover": "images/masa-saati/kapak-zakkum.jpg"
+  },
+  {
+    "num": 65,
+    "name": "Ahlat",
+    "slug": "masa-saati-ahlat",
+    "badge": "🍐 Anadolu & Köklü",
+    "desc": "Anadolu'nun yabani armudundan ilham alan koyu sarı-amber tonu. Köklü ve özgün bi...",
+    "cover": "images/masa-saati/kapak-ahlat.jpg"
+  },
+  {
+    "num": 66,
+    "name": "Ayaz",
+    "slug": "masa-saati-ayaz",
+    "badge": "🌬️ Soğuk & Berrak",
+    "desc": "Kış ayazının berraklığı ve soğuk temizliği açık ahşap tonuna sinmiş. Masanıza kı...",
+    "cover": "images/masa-saati/kapak-ayaz.jpg"
+  },
+  {
+    "num": 67,
+    "name": "Nergis",
+    "slug": "masa-saati-nergis",
+    "badge": "🌼 Sarı & Bahar",
+    "desc": "Nergis çiçeğinin parlak sarısı ve beyazı açık ahşapta. Baharın gelişini masanıza...",
+    "cover": "images/masa-saati/kapak-nergis.jpg"
+  },
+  {
+    "num": 68,
+    "name": "Ebegümeci",
+    "slug": "masa-saati-ebegumeci",
+    "badge": "🌺 Mor & Güzel",
+    "desc": "Ebegümecinin zarif moru ve sarısı ahşabın sıcaklığıyla bir araya geliyor. Beklen...",
+    "cover": "images/masa-saati/kapak-ebegumeci.jpg"
+  },
+  {
+    "num": 69,
+    "name": "Kavak",
+    "slug": "masa-saati-kavak",
+    "badge": "🌳 Hızlı & Yükselen",
+    "desc": "Kavakların hızlı büyümesinden ilham alan dikey ve dinamik tasarım. Yükselen bir ...",
+    "cover": "images/masa-saati/kapak-kavak.jpg"
+  },
+  {
+    "num": 70,
+    "name": "Karaçam",
+    "slug": "masa-saati-karacam",
+    "badge": "🌲 Koyu & Güçlü",
+    "desc": "Karaçamın koyu yeşil-siyah tonu ahşabın gücüyle birleşiyor. Sert doğanın kalın k...",
+    "cover": "images/masa-saati/kapak-karacam.jpg"
+  },
+  {
+    "num": 71,
+    "name": "Mehlika",
+    "slug": "masa-saati-mehlika",
+    "badge": "🌙 Zarif & Gizemli",
+    "desc": "Nadir ve zarif bir isim, nadir ve zarif bir tasarım. Gizemli koyu-açık ahşap kon...",
+    "cover": "images/masa-saati/kapak-mehlika.jpg"
+  },
+  {
+    "num": 72,
+    "name": "Boncuk",
+    "slug": "masa-saati-boncuk",
+    "badge": "🪬 Geleneksel & Renkli",
+    "desc": "Türk el sanatlarının renkli boncuk geleneğinden ilham alan bu seri, masaüstünde ...",
+    "cover": "images/masa-saati/kapak-boncuk.jpg"
+  },
+  {
+    "num": 73,
+    "name": "Mahmur",
+    "slug": "masa-saati-mahmur",
+    "badge": "😴 Romantik & Uyuşuk",
+    "desc": "Mahmurun romantik ve uyuşuk halinin huzurlu estetiği. Masanıza yumuşak ve uysal ...",
+    "cover": "images/masa-saati/kapak-mahmur.jpg"
+  },
+  {
+    "num": 74,
+    "name": "Dağlarca",
+    "slug": "masa-saati-daglarca",
+    "badge": "⛰️ Şiirsel & Güçlü",
+    "desc": "Şair Fazıl Hüsnü Dağlarca'nın coğrafyasından ilham, dağların güçlü ruhunu taşıya...",
+    "cover": "images/masa-saati/kapak-daglarca.jpg"
+  },
+  {
+    "num": 75,
+    "name": "Taze",
+    "slug": "masa-saati-taze",
+    "badge": "🌱 Yeni & Canlı",
+    "desc": "Taze filizlerin açık yeşilimsi tonu ahşabın sıcaklığında. Yeni başlangıçların si...",
+    "cover": "images/masa-saati/kapak-taze.jpg"
+  },
+  {
+    "num": 76,
+    "name": "Pınar",
+    "slug": "masa-saati-pinar",
+    "badge": "💧 Berrak & Temiz",
+    "desc": "Bir pınarın berraklığı ve temizliği açık ahşabın saflığında. Masanıza kristal bi...",
+    "cover": "images/masa-saati/kapak-pinar.jpg"
+  },
+  {
+    "num": 77,
+    "name": "Sümbül",
+    "slug": "masa-saati-sumbul",
+    "badge": "💜 Mor & Mis",
+    "desc": "Sümbülün mis kokusu ve mor tonu ahşabın aromalarıyla birleşiyor. Görünür güzelli...",
+    "cover": "images/masa-saati/kapak-sumbul.jpg"
+  },
+  {
+    "num": 78,
+    "name": "Anka",
+    "slug": "masa-saati-anka-m",
+    "badge": "🦅 Yeniden Doğuş",
+    "desc": "Efsanevi anka kuşunun ateşten yeniden doğuşu gibi — her model eşsiz ve yenilenme...",
+    "cover": "images/masa-saati/kapak-anka-m.jpg"
+  },
+  {
+    "num": 79,
+    "name": "Elmas",
+    "slug": "masa-saati-elmas",
+    "badge": "💎 En Değerli",
+    "desc": "Koleksiyonun en değerli taşı. Elmas Serisi, masaüstü saatin zirvesindedir — hem ...",
+    "cover": "images/masa-saati/kapak-elmas.jpg"
+  }
+]
