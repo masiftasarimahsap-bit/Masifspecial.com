@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Klinik İçi Bilgilendirme Sistemi | MasifSpecial AI</title>
+  <meta name="description" content="QR kod bazlı dijital hasta bilgilendirme sistemi. Hastalara tedavi öncesi ve sonrası bilgileri otomatik iletin."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; -webkit-font-smoothing: antialiased; color: #0f172a; }
+    .gradient-text { background: linear-gradient(135deg, #0ea5e9, #38bdf8, #7dd3fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .hero-bg { background: linear-gradient(135deg, #080c14 0%, #0c1929 40%, #0f2137 100%); }
+    .glow { position: absolute; border-radius: 50%; filter: blur(80px); opacity: 0.15; pointer-events: none; }
+    .step-line { position: relative; }
+    .step-line::before { content: ''; position: absolute; left: 23px; top: 60px; bottom: -20px; width: 2px; background: linear-gradient(to bottom, #0ea5e9, transparent); }
+    .step-line:last-child::before { display: none; }
+    details[open] summary { background: #f8fafc; }
+    @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+    .animate-in { animation: fadeInUp 0.6s ease-out forwards; }
+    .animate-delay-1 { animation-delay: 0.1s; }
+    .animate-delay-2 { animation-delay: 0.2s; }
+    .animate-delay-3 { animation-delay: 0.3s; }
+    .animate-delay-4 { animation-delay: 0.4s; }
+  </style>
+</head>
+<body>
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-[#080c14]/90 backdrop-blur-xl border-b border-white/5">
+      <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="./" class="flex items-center gap-2">
+          <span class="text-xl font-bold text-white">MasifSpecial</span>
+          <span class="text-[10px] font-semibold px-1.5 py-0.5 bg-white/10 text-white/70 rounded">AI</span>
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="./#cozumler" class="text-sm text-white/60 hover:text-white transition">Çözümlerimiz</a>
+          <a href="./#senaryolar" class="text-sm text-white/60 hover:text-white transition">Senaryolar</a>
+          <a href="./#yontem" class="text-sm text-white/60 hover:text-white transition">Yöntemimiz</a>
+          <a href="https://wa.me/905551234567" target="_blank" class="text-sm font-semibold px-5 py-2.5 bg-gradient-to-r from-[#0ea5e9] to-[#38bdf8] text-white rounded-full hover:shadow-lg hover:shadow-[#0ea5e9]/30 transition-all">Ücretsiz Analiz</a>
+        </div>
+        <a href="https://wa.me/905551234567" target="_blank" class="md:hidden text-sm font-semibold px-4 py-2 bg-[#0ea5e9] text-white rounded-full">İletişim</a>
+      </div>
+    </nav>
+
+  <!-- Hero -->
+  <section class="hero-bg relative overflow-hidden pt-32 pb-20 px-6">
+    <div class="glow" style="width:500px;height:500px;background:#0ea5e9;top:-100px;right:-100px;"></div>
+    <div class="glow" style="width:400px;height:400px;background:#7c3aed;bottom:-150px;left:-100px;"></div>
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10">
+      <div class="animate-in">
+        <p class="text-[#0ea5e9] text-sm font-semibold uppercase tracking-widest mb-4">Dijital Hasta Deneyimi</p>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">Klinik İçi Bilgilendirme Sistemi</h1>
+        <p class="text-lg text-white/60 leading-relaxed mb-8">QR kod bazlı dijital bilgilendirme sistemi. Hastalarınız klinikte QR okutarak hekim tanıtımı, tedavi bilgileri ve bakım talimatlarına anında ulaşır.</p>
+        <div class="flex flex-wrap gap-4">
+          <a href="https://wa.me/905551234567" target="_blank" class="inline-flex items-center gap-2 px-7 py-3.5 bg-gradient-to-r from-[#0ea5e9] to-[#38bdf8] text-white font-semibold rounded-full hover:shadow-xl hover:shadow-[#0ea5e9]/30 transition-all duration-300">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.616l4.529-1.476A11.96 11.96 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.25 0-4.348-.68-6.105-1.845l-.436-.296-2.685.876.893-2.634-.322-.467A9.953 9.953 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+            Ücretsiz Danışmanlık
+          </a>
+          <a href="./" class="inline-flex items-center gap-2 px-7 py-3.5 border border-white/20 text-white/80 font-semibold rounded-full hover:bg-white/5 transition-all duration-300">
+            ← Tüm Çözümler
+          </a>
+        </div>
+      </div>
+      <div class="animate-in animate-delay-2">
+        <div class="rounded-3xl overflow-hidden shadow-2xl shadow-[#0ea5e9]/10 border border-white/10">
+          <img src="./klinik-images/klinik-ici-bilgilendirme.jpg" alt="Klinik İçi Bilgilendirme Sistemi" class="w-full h-auto object-cover" style="aspect-ratio:16/10;"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem & Solution -->
+  <section class="py-20 px-6 bg-[#f8fafc]">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16">
+      <!-- Problem -->
+      <div class="animate-in">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-10 h-10 rounded-xl bg-red-50 flex items-center justify-center">
+            <svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>
+          </div>
+          <h2 class="text-2xl font-bold text-[#0f172a]">Mevcut Durum</h2>
+        </div>
+        <p class="text-[#64748b] leading-relaxed text-lg">Hastalar tedavi hakkında yeterli bilgi alamadan kliniğe geliyor. Hekim her hastaya aynı bilgileri tekrar tekrar anlatıyor — bu hem zaman kaybı hem de eksik iletişime yol açıyor. Tedavi sonrası bakım talimatları sözlü söyleniyor ama çoğu hasta evde ne yapacağını hatırlamıyor. Basılı broşürler güncellenmesi zor ve maliyetli.</p>
+      </div>
+      <!-- Solution Flow -->
+      <div class="animate-in animate-delay-2">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center">
+            <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h2 class="text-2xl font-bold text-[#0f172a]">Nasıl Çözüyoruz?</h2>
+        </div>
+        <div class="space-y-6">
+          
+        <div class="flex gap-5 items-start">
+          <div class="shrink-0 w-12 h-12 rounded-2xl bg-gradient-to-br from-[#0ea5e9] to-[#38bdf8] flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-[#0ea5e9]/20">1</div>
+          <div>
+            <h4 class="text-lg font-bold text-[#0f172a] mb-1">QR Kod Sistemi</h4>
+            <p class="text-[#64748b] leading-relaxed">Kliniğin farklı noktalarına (bekleme salonu, tedavi odaları) özel QR kodlar yerleştirilir. Her QR kod farklı bir bilgilendirme sayfasına yönlendirir.</p>
+          </div>
+        </div>
+        <div class="flex gap-5 items-start">
+          <div class="shrink-0 w-12 h-12 rounded-2xl bg-gradient-to-br from-[#0ea5e9] to-[#38bdf8] flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-[#0ea5e9]/20">2</div>
+          <div>
+            <h4 class="text-lg font-bold text-[#0f172a] mb-1">Hekim Tanıtım Sayfası</h4>
+            <p class="text-[#64748b] leading-relaxed">Hasta bekleme salonunda QR okutarak hekimin öğrenim bilgileri, uzmanlık alanları ve deneyimini görür. Güven oluşur.</p>
+          </div>
+        </div>
+        <div class="flex gap-5 items-start">
+          <div class="shrink-0 w-12 h-12 rounded-2xl bg-gradient-to-br from-[#0ea5e9] to-[#38bdf8] flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-[#0ea5e9]/20">3</div>
+          <div>
+            <h4 class="text-lg font-bold text-[#0f172a] mb-1">Tedavi Bilgilendirmesi</h4>
+            <p class="text-[#64748b] leading-relaxed">Tedavi öncesi ve sonrası bilgilendirme sayfaları hazırlanır. Hasta telefonundan okuyarak tedavi süreci hakkında detaylı bilgi alır.</p>
+          </div>
+        </div>
+        <div class="flex gap-5 items-start">
+          <div class="shrink-0 w-12 h-12 rounded-2xl bg-gradient-to-br from-[#0ea5e9] to-[#38bdf8] flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-[#0ea5e9]/20">4</div>
+          <div>
+            <h4 class="text-lg font-bold text-[#0f172a] mb-1">Bakım Talimatları</h4>
+            <p class="text-[#64748b] leading-relaxed">Tedavi sonrası bakım talimatları dijital olarak hastanın telefonuna iletilir. Hasta evde ne yapacağını her zaman görebilir.</p>
+          </div>
+        </div>
+        <div class="flex gap-5 items-start">
+          <div class="shrink-0 w-12 h-12 rounded-2xl bg-gradient-to-br from-[#0ea5e9] to-[#38bdf8] flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-[#0ea5e9]/20">5</div>
+          <div>
+            <h4 class="text-lg font-bold text-[#0f172a] mb-1">Anket & Geri Bildirim</h4>
+            <p class="text-[#64748b] leading-relaxed">Tedavi sonrası memnuniyet anketi otomatik gönderilir. Hasta deneyimi sürekli ölçülür ve iyileştirilir.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-14">
+        <p class="text-sm text-[#0ea5e9] uppercase tracking-widest mb-3 font-semibold">Avantajlar</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-[#0f172a]">Size <span class="gradient-text">Ne Kazandırır?</span></h2>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <div class="bg-white rounded-2xl p-6 border border-[#e2e8f0] hover:border-[#0ea5e9]/30 hover:shadow-lg transition-all duration-300">
+          <div class="text-3xl mb-3">📲</div>
+          <h4 class="text-lg font-bold text-[#0f172a] mb-2">Anında Erişim</h4>
+          <p class="text-sm text-[#64748b] leading-relaxed">Hasta telefonla QR okutarak tüm bilgilere saniyede ulaşır.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 border border-[#e2e8f0] hover:border-[#0ea5e9]/30 hover:shadow-lg transition-all duration-300">
+          <div class="text-3xl mb-3">⏳</div>
+          <h4 class="text-lg font-bold text-[#0f172a] mb-2">Zaman Tasarrufu</h4>
+          <p class="text-sm text-[#64748b] leading-relaxed">Hekimin tekrar tekrar aynı bilgiyi anlatma süresini azaltır.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 border border-[#e2e8f0] hover:border-[#0ea5e9]/30 hover:shadow-lg transition-all duration-300">
+          <div class="text-3xl mb-3">📄</div>
+          <h4 class="text-lg font-bold text-[#0f172a] mb-2">Dijital Talimatlar</h4>
+          <p class="text-sm text-[#64748b] leading-relaxed">Bakım talimatları hastanın cebinde. Unutma sorunu ortadan kalkar.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 border border-[#e2e8f0] hover:border-[#0ea5e9]/30 hover:shadow-lg transition-all duration-300">
+          <div class="text-3xl mb-3">⭐</div>
+          <h4 class="text-lg font-bold text-[#0f172a] mb-2">Hasta Memnuniyeti</h4>
+          <p class="text-sm text-[#64748b] leading-relaxed">Profesyonel bilgilendirme hasta güvenini ve memnuniyetini artırır.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="py-20 px-6 bg-[#f8fafc]">
+    <div class="max-w-3xl mx-auto">
+      <div class="text-center mb-14">
+        <p class="text-sm text-[#0ea5e9] uppercase tracking-widest mb-3 font-semibold">Sık Sorulan Sorular</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-[#0f172a]">Merak Edilenler</h2>
+      </div>
+      <div class="space-y-3">
+        
+        <details class="group bg-white rounded-2xl border border-[#e2e8f0] overflow-hidden">
+          <summary class="flex items-center justify-between px-6 py-5 cursor-pointer select-none hover:bg-[#f8fafc] transition">
+            <span class="font-semibold text-[#0f172a]">Hastanın uygulama indirmesi gerekiyor mu?</span>
+            <svg class="w-5 h-5 text-[#94a3b8] group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="px-6 pb-5 text-[#64748b] leading-relaxed border-t border-[#f1f5f9]">
+            <p class="pt-4">Hayır. Tüm içerikler mobil web sayfası olarak açılır. Herhangi bir uygulama veya kayıt gerektirmez — sadece telefon kamerasıyla QR okutmak yeterlidir.</p>
+          </div>
+        </details>
+        <details class="group bg-white rounded-2xl border border-[#e2e8f0] overflow-hidden">
+          <summary class="flex items-center justify-between px-6 py-5 cursor-pointer select-none hover:bg-[#f8fafc] transition">
+            <span class="font-semibold text-[#0f172a]">İçerikleri kendimiz güncelleyebilir miyiz?</span>
+            <svg class="w-5 h-5 text-[#94a3b8] group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="px-6 pb-5 text-[#64748b] leading-relaxed border-t border-[#f1f5f9]">
+            <p class="pt-4">Evet. Kolay kullanımlı yönetim paneli üzerinden tedavi bilgilerini, hekim profillerini ve bakım talimatlarını istediğiniz zaman güncelleyebilirsiniz.</p>
+          </div>
+        </details>
+        <details class="group bg-white rounded-2xl border border-[#e2e8f0] overflow-hidden">
+          <summary class="flex items-center justify-between px-6 py-5 cursor-pointer select-none hover:bg-[#f8fafc] transition">
+            <span class="font-semibold text-[#0f172a]">Kaç farklı QR kod kullanabiliriz?</span>
+            <svg class="w-5 h-5 text-[#94a3b8] group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="px-6 pb-5 text-[#64748b] leading-relaxed border-t border-[#f1f5f9]">
+            <p class="pt-4">Sınırsız. Her tedavi türü, her hekim ve her bilgilendirme konusu için ayrı QR kod oluşturulabilir.</p>
+          </div>
+        </details>
+        <details class="group bg-white rounded-2xl border border-[#e2e8f0] overflow-hidden">
+          <summary class="flex items-center justify-between px-6 py-5 cursor-pointer select-none hover:bg-[#f8fafc] transition">
+            <span class="font-semibold text-[#0f172a]">Hasta verileri toplanıyor mu?</span>
+            <svg class="w-5 h-5 text-[#94a3b8] group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="px-6 pb-5 text-[#64748b] leading-relaxed border-t border-[#f1f5f9]">
+            <p class="pt-4">KVKK'ya tam uyumlu şekilde çalışır. Hasta bilgileri saklanmaz; yalnızca anonim istatistikler (ziyaret sayısı, en çok okunan sayfalar) raporlanır.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="hero-bg relative overflow-hidden py-20 px-6">
+    <div class="glow" style="width:400px;height:400px;background:#0ea5e9;top:-200px;left:50%;"></div>
+    <div class="max-w-3xl mx-auto text-center relative z-10">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Kliniğinizi Dijitalleştirin</h2>
+      <p class="text-white/50 mb-8 text-lg">Ücretsiz analiz görüşmenizi hemen planlayın. Kliniğinize özel çözüm önerimizi 24 saat içinde sunalım.</p>
+      <a href="https://wa.me/905551234567" target="_blank" class="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-[#0ea5e9] to-[#38bdf8] text-white font-bold rounded-full text-lg hover:shadow-xl hover:shadow-[#0ea5e9]/30 transition-all duration-300">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.616l4.529-1.476A11.96 11.96 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.25 0-4.348-.68-6.105-1.845l-.436-.296-2.685.876.893-2.634-.322-.467A9.953 9.953 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        Hemen WhatsApp'tan Yazın
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#080c14] border-t border-white/5 py-8 px-6">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <a href="./" class="flex items-center gap-2">
+        <span class="text-lg font-bold text-white">MasifSpecial</span>
+        <span class="text-[9px] font-semibold px-1.5 py-0.5 bg-white/10 text-white/60 rounded">AI</span>
+      </a>
+      <p class="text-sm text-white/30">© 2025 MasifSpecial. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+</body>
+</html>
